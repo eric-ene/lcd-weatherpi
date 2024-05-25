@@ -103,7 +103,7 @@ fn run(display: &mut ST7789) {
           icon.as_str(),
           &font,
           30,
-          -10,
+          -5,
           &foreground,
           128.0
         );
@@ -112,7 +112,7 @@ fn run(display: &mut ST7789) {
           temp.as_str(),
           &font,
           128,
-          10,
+          15,
           &foreground,
           80.0
         );
@@ -121,7 +121,7 @@ fn run(display: &mut ST7789) {
           desc.as_str(),
           &font,
           30,
-          100,
+          105,
           &foreground,
           48.0
         );
@@ -130,7 +130,7 @@ fn run(display: &mut ST7789) {
           time.as_str(),
           &font,
           128,
-          80,
+          85,
           &foreground,
           20.0
         );
