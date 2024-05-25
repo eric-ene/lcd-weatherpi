@@ -1,0 +1,13 @@
+[package]
+name = "LCDWeather"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+st7789_rs = "0.1.5"
+openweathermap = "0.2.4"
+
+image = "0.25.1"
+rusttype = "0.9.3"
+signal-hook = "0.3.17"
+chrono = "0.4.38"
